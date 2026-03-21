@@ -42,7 +42,7 @@ export const HeroSlider = () => {
   };
 
   return (
-    <section className="relative w-full h-screen overflow-hidden">
+    <section className="relative w-full overflow-hidden" style={{ height: '100svh' }}>
       {slides.map((slide, idx) => (
         <div
           key={slide.id}
@@ -95,8 +95,6 @@ export const HeroSlider = () => {
           一人ひとりのライフスタイルに寄り添う、<br />
           パーソナルなバーバーエクスペリエンス
         </p>
-
-        {/* CTA Buttons */}
         <div className="flex gap-4 flex-wrap justify-center">
           <button
             onClick={() => handleScroll('story')}
