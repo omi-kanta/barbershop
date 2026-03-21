@@ -67,18 +67,18 @@ export const GALLERY_SLIDES: GallerySlide[] = [
 
 // 得意な技術
 export const SKILLS: Skill[] = [
-  { name: 'クラシックバーバースタイル', years: 15 },
-  { name: 'モダンフェードカット', years: 12 },
-  { name: 'トラディショナルシェービング', years: 15 },
-  { name: 'ヘアカラーリング', years: 10 },
+  { name: 'クラシックバーバースタイル', years: 4 },
+  { name: 'モダンフェードカット', years: 4 },
+  { name: 'クラシックシェービング', years: 4 },
+  { name: 'ヘアカラーリング', years: 4 },
 ];
 
 // プライベートの好きなこと
 export const HOBBIES: Hobby[] = [
   {
-    icon: '☕',
-    name: 'コーヒー',
-    description: '毎朝の一杯から始まる、こだわりのドリップコーヒー',
+    icon: '🏄',
+    name: 'サーフィン',
+    description: '波と対話する、海との一体感',
   },
   {
     icon: '📷',
