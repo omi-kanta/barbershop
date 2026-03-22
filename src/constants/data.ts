@@ -60,9 +60,14 @@ export const SERVICES: ServiceCategory[] = [
 export const GALLERY_SLIDES: GallerySlide[] = [
   { src: '/images/gallery/gallery-1.jpg', alt: 'Gentleman Cut', title: 'Gentleman Cut', description: '大人の余裕を感じさせるスタイル' },
   { src: '/images/gallery/gallery-2.jpg', alt: 'Fresh Look', title: 'Fresh Look', description: 'すっきりとした爽やかなスタイル' },
-  { src: '/images/gallery/gallery-3.jpg', alt: 'Modern Fade', title: 'Modern Fade', description: 'クリーンなフェードスタイル' },
+  { src: '/images/gallery/gallery-3.jpg', alt: 'Soft Perm', title: 'Soft Perm', description: 'ゆるふわパーマで柔らかい印象に' },
   { src: '/images/gallery/gallery-4.jpg', alt: 'Classic Cut', title: 'Classic Cut', description: 'ビジネスシーンに最適' },
   { src: '/images/gallery/gallery-5.jpg', alt: 'Bold Style', title: 'Bold Style', description: '個性的な質感を活かして' },
+  { src: '/images/gallery/gallery-6.jpg', alt: 'Natural Style', title: 'Natural Style', description: '自然な動きを活かしたスタイル' },
+  { src: '/images/gallery/gallery-7.jpg', alt: 'Modern Fade', title: 'Modern Fade', description: 'クリーンなフェードスタイル' },
+  { src: '/images/gallery/gallery-8.jpg', alt: 'Texture Wave', title: 'Texture Wave', description: 'ランダムウェーブで動きのあるスタイル' },
+  { src: '/images/gallery/gallery-9.jpg', alt: 'Soft Curl', title: 'Soft Curl', description: 'ソフトカールで大人の色気を演出' },
+  { src: '/images/gallery/gallery-10.jpg', alt: 'Clean Crop', title: 'Clean Crop', description: 'クロップスタイルで大人の印象に' },
 ];
 
 // 得意な技術
