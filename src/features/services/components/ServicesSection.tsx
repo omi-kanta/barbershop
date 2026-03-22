@@ -8,7 +8,7 @@ export const ServicesSection = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <p className="text-xs tracking-[0.3em] text-stone-400 mb-4">SERVICES</p>
-          <h2 className="text-4xl md:text-5xl font-light mb-4">
+          <h2 className="text-3xl md:text-5xl font-light mb-4">
             サービス <span className="font-serif italic">メニュー</span>
           </h2>
           <p className="text-stone-500 font-light text-sm">
