@@ -11,6 +11,26 @@ const NAV_ITEMS = [
   { label: 'Contact', href: '#contact' },
 ];
 
+const INSTAGRAM_URL = 'https://www.instagram.com/yuki_eight_nine/';
+
+const InstagramIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="16"
+    height="16"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+  </svg>
+);
+
 export const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -65,6 +85,21 @@ export const Header = () => {
                 {item.label}
               </button>
             ))}
+
+            {/* Instagram */}
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`transition-colors duration-300 hover:opacity-70 ${
+                isScrolled ? 'text-stone-900' : 'text-white'
+              }`}
+              aria-label="Instagram"
+            >
+              <InstagramIcon />
+            </a>
+
+            {/* Book Now */}
             <button
               onClick={() => handleScroll('#contact')}
               className={`px-6 py-2.5 text-sm font-light tracking-wide transition-all duration-300 ${
@@ -108,6 +143,20 @@ export const Header = () => {
                   {item.label}
                 </button>
               ))}
+
+              {/* Mobile Instagram */}
+              <a
+                href={INSTAGRAM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`flex items-center gap-2 text-sm font-light tracking-wide hover:opacity-70 transition-opacity py-2 ${
+                  isScrolled ? 'text-stone-900' : 'text-white'
+                }`}
+              >
+                <InstagramIcon />
+                <span>@yuki_eight_nine</span>
+              </a>
+
               <button
                 onClick={() => handleScroll('#contact')}
                 className={`px-6 py-3 text-sm font-light tracking-wide transition-colors text-center ${
