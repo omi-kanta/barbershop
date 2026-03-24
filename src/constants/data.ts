@@ -124,8 +124,8 @@ export const PHILOSOPHIES = [
 // 連絡先
 export const CONTACT_INFO = {
   phone: '080-1234-5678',
-  email: 'takeshi@barber.jp',
-  instagram: '@takeshi.barber',
+  email: 'yuki@barber.jp',
+  instagram: '@yuki.barber',
   hours: [
     { days: '火・金', time: '10:00 - 20:00' },
     { days: '土・日', time: '10:00 - 19:00' },
